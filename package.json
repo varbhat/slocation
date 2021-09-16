@@ -1,0 +1,42 @@
+{
+  "name": "slocation",
+  "version": "1.5.0",
+  "description": "Reactive Svelte Location Store",
+  "main": "dist/slocation.js",
+  "types": "dist/slocation.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write --plugin-search-dir=. .",
+    "clean": "rm -rf dist/ node_modules/ package-lock.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varbhat/slocation.git"
+  },
+  "author": "varbhat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/varbhat/slocation/issues"
+  },
+  "homepage": "https://github.com/varbhat/slocation#readme",
+  "type": "module",
+  "keywords": [
+    "svelte",
+    "store",
+    "reactive",
+    "location",
+    "slocation",
+    "router",
+    "tiny",
+    "small",
+    "lightweight"
+  ],
+  "devDependencies": {
+    "prettier": "latest",
+    "svelte": "latest",
+    "typescript": "next"
+  },
+  "dependencies": {
+    "svelte": "latest"
+  }
+}
